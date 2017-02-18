@@ -1,0 +1,36 @@
+body{
+	background-color: #ECECEA;
+}
+#logo {
+	font-family: Robotic;
+	color: #ff8533;
+	text-align: center;
+}
+#feedbtn{
+	width: 130px;
+	background-color: #558C89;
+	float: right;
+	top: 50px;
+	right: 325px;
+}
+.input{
+	width: 600px;
+	margin: auto;
+
+}
+.card{
+	background-color: #558C89;
+}
+a:link{
+	color:white;
+}
+a:visited {
+    color: #A2AB58;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #3B3738;
+    background-color: transparent;
+    text-decoration: underline;
+}

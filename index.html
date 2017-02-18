@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Re:Feed</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="RSS Reader">
+	<meta name="keywords" content="RSS, Stanley Tan">
+	<meta name="author" content="Stanley Tan">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<link rel="stylesheet" href="rssCSS.css"></link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+</head>
+	<body>
+		<h1 id="logo">Re:Feed</h1>
+
+		<a id="feedbtn" class="waves-effect waves-light btn">Read</a>
+
+		  <div class="input">
+		    <form class="col s12">
+		      <div class="row">
+		        <div class="input-field col s12">
+		          <textarea id="txtIn" class="materialize-textarea"></textarea>
+		          <label for="txtIn">Input rss url</label>
+		        </div>
+		      </div>
+		    </form>
+		  </div>
+
+		  <div class = "helpplz"></div>
+	</body>
+	<script src="rssJS.js"></script>
+</html>
